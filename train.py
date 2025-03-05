@@ -11,11 +11,11 @@ from tqdm import tqdm
 warnings.filterwarnings('ignore')
 
 
-tokenizer_path = r'C:\Users\Daryn Bang\Desktop\Datasets\Img2Latex\tokenizer.json'
+tokenizer_path = r'Datasets\Img2Latex\tokenizer.json'
 
-train_csv = r'C:\Users\Daryn Bang\Desktop\Datasets\Img2Latex_3\train.csv'
-val_csv = r'C:\Users\Daryn Bang\Desktop\Datasets\Img2Latex_3\val.csv'
-base_dir = r'C:\Users\Daryn Bang\Desktop\Datasets\Img2Latex_3'
+train_csv = r'Datasets\Img2Latex_3\train.csv'
+val_csv = r'Datasets\Img2Latex_3\val.csv'
+base_dir = r'Datasets\Img2Latex_3'
 
 torch.backends.cudnn.benchmark = True
 
