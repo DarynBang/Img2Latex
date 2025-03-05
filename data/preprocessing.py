@@ -48,23 +48,8 @@ def filter_by_length(example):
 
 
 # Directory to save resized images
-base_dir = r'C:\Users\Daryn Bang\Desktop\Datasets\Img2Latex_3'
+base_dir = r'Datasets\Img2Latex'
 os.makedirs(base_dir, exist_ok=True)
-
-
-# Resize function
-# def resize_and_save(idx, instance, output_dir, size=(IMG_WIDTH, IMG_HEIGHT)):
-#     # Ensure the directory exists
-#     os.makedirs(output_dir, exist_ok=True)
-#     # Open image
-#     image = instance["image"]
-#     # Resize
-#     image_resized = image.resize(size, Image.LANCZOS)
-#     # Save resized image
-#     output_path = os.path.join(output_dir, f"im2latex_{idx}.png")
-#     image_resized.save(output_path)
-#     return output_path
-
 
 def resize_and_save(idx, instance, output_dir, size=(IMG_WIDTH, IMG_HEIGHT), WIDTH_THRESH=128, HEIGHT_THRESH=32):
     os.makedirs(output_dir, exist_ok=True)
