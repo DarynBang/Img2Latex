@@ -28,5 +28,5 @@ num_encoder_layers = 6
 num_decoder_layers = 5
 max_output_len = 300
 
-MODEL_PATH = r'C:\Users\Daryn Bang\Desktop\Models\Image2Latex_leVIT\img2latex_checkpoint.pth.tar'
-CHECKPOINT_PATH = r'C:\Users\Daryn Bang\Desktop\Models\Image2Latex_leVIT\img2latex_checkpoint_new.pth.tar'
+MODEL_PATH = r'img2latex_checkpoint.pth.tar'
+CHECKPOINT_PATH = r'img2latex_checkpoint_new.pth.tar'
