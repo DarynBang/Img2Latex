@@ -33,11 +33,11 @@ test_transforms = A.Compose(
 )
 
 
-MODEL_PTH = r'C:\Users\Daryn Bang\Desktop\Models\Image2Latex_updated\img2latex_checkpoint.pth.tar'
+MODEL_PTH = r'model\img2latex_checkpoint.pth.tar'
 
-val_csv = r'C:\Users\Daryn Bang\Desktop\Datasets\Img2Latex_3\val.csv'
-tokenizer_path = r'C:\Users\Daryn Bang\Desktop\Datasets\Img2Latex\tokenizer.json'
-base_dir = r'C:\Users\Daryn Bang\Desktop\Datasets\Img2Latex_3'
+val_csv = r'Datasets\Img2Latex\val.csv'
+tokenizer_path = r'tokenizer.json'
+base_dir = r'Datasets\Img2Latex'
 
 special_characters = "{[(|,.&+-*/<=^%"
 
